@@ -46,9 +46,9 @@ if(!defined('ABSPATH')) define('ABSPATH', dirname(__FILE__) . '/wordpress/'); //
 
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_HOME','https://support.turbookings.com');
+// define('WP_HOME','https://support.turbookings.com');
 
-define('WP_SITEURL','https://support.turbookings.com');
+// define('WP_SITEURL','https://support.turbookings.com');
 
 // // installs using a Heroku button do not know the URL, so they use example.com as the site URL, which we need to fix
 // if(function_exists('get_option') && get_option('siteurl') == 'http://example.herokuapp.com') {
